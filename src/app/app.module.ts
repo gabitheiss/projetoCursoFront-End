@@ -5,12 +5,14 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { PrimeiratelaComponent } from './primeiratela/primeiratela.component';
 import { SegundatelaComponent } from './segundatela/segundatela.component';
+import { TelainicialComponent } from './telainicial/telainicial.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     PrimeiratelaComponent,
-    SegundatelaComponent
+    SegundatelaComponent,
+    TelainicialComponent
   ],
   imports: [
     BrowserModule,
