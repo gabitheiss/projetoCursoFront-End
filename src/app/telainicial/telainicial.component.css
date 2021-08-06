@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.conteudo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 50px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bolder;
+}
+
+.text a {
+  color: white !important;
+  font-size: 40px;
+  text-decoration: none;
+  font-style: italic;
+ }
+
+.logo img {
+  height: 400px;
+}
+.contato {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 15px;
+  color: rgb(110, 110, 110);
+}
